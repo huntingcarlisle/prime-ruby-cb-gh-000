@@ -1,7 +1,8 @@
 # Add  code here!
-def prime?(integer)
-  i = integer
-  while i > 0
+def prime?(integer, i = 2)
+  if integer <= 2
+    return integer == 2
+  elsif integer % i == 0
     
   end
 end
